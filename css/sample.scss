@@ -85,7 +85,7 @@ body {
         display: none;
     }
     .title_items_pc {
-        padding: 25px 0;
+        padding: 15px 0;
     }
     
 }
@@ -96,7 +96,7 @@ body {
     }
     .title_items_sp {
         text-align: center;
-        padding: 10px;
+        padding: 20px 0 10px 0;
     }
 }
 
@@ -117,6 +117,8 @@ body {
         
     }
     
+    
+    
 }
 
 @media (max-width: 550px) {
@@ -127,7 +129,8 @@ body {
     .item {
         p {
             margin-bottom: 10px;
-            font-size: 1.2rem;
+            font-size: 11px;
+            
         }
     }
 }
@@ -268,6 +271,7 @@ body {
     img {
         padding-top: 20px;
         padding-left: 20px;
+        padding-bottom: 5px;
         
     }
 }
@@ -301,14 +305,15 @@ input[type="search"] {
     
     a {
          text-decoration: none;
-         color: $broun1;
+         color: black;
+         font-size: 13px;
     }
 }
 
 .copy {
     display: block;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 10px;
     padding-bottom: 100px;
     font-size: 10px;
 }
@@ -542,7 +547,7 @@ input[type="search"] {
     overflow: hidden; 
     padding-top: 20px;
     text-align: center;
-    border-bottom: 2px solid $broun2;
+    border-bottom: 2px solid $broun2; 
     padding-bottom: 15px;
 }
 
@@ -674,7 +679,7 @@ table {
         position: static;
         width: 100%;
         padding: 15px 30px;
-        border-bottom: 2px solid $broun2;
+     /*   border-bottom: 2px solid $broun2;  */
     }
 }}
 
@@ -685,7 +690,7 @@ table {
         padding-top: 30px;
         padding-bottom: 10px;
         margin: 0;
-        border-bottom: 2px solid $broun2;
+        border-bottom: 1px solid $broun1;
     }
     .setumei_title {
         color: $broun1;
@@ -771,10 +776,77 @@ table {
         
         .name {
             margin-bottom: 0;
-            font-size: 20px;
+            font-size: 16px;
             font-weight: bold;
             padding-top: 15px;
         }
     }
     
 }
+
+
+@media (max-width: 550px) {
+    
+.popular_items_list {
+    margin-bottom: 10px;
+}
+
+#sarch {
+    margin: 15px 0;
+}
+
+.pagelink_li a {
+    font-size: 15px;
+}
+
+
+    .item_next_back p {
+        width: 38%;
+        text-align: center;
+    }
+
+.item_next_back {
+    margin-top: 10px;
+}
+
+.bottom_content {
+    .setumei_top {
+     padding-top: 2px;   
+    }
+}
+
+}
+
+@media (min-width: 550px) {
+    .i_item {
+        p {
+            font-size: 12px;
+        }
+    }
+    
+    
+.new_items_list {
+    margin-bottom: 10px;
+}
+.popular_items_list {
+    margin-bottom: 10px;
+}
+
+#syousai {
+    margin-bottom: 5px;
+}
+
+.price {
+    padding: 20px 0;
+}
+
+.quantity {
+    padding: 20px 0;
+}
+
+}
+
+
+    a:link {
+        color: #222;
+    }
